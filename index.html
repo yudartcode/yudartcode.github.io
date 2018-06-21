@@ -3,11 +3,13 @@
     <head>
         <title>YUDA ART CODE</title>
     </head>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="lib/w3.css"> -->
 <body>
     <style>
         /* CSS Index */
         body {
-            background-color: azure;
+            background-color: white;
             }
         .rangka {
             width:auto;
@@ -15,7 +17,7 @@
             }
         .menu1{
             height: 100px;
-            background-image:url(../image/Menu.jpg);
+            background-image:url(image/Menu.jpg);
             line-height: 100px;
             padding-top: 25px;
             padding-bottom: 25px;
@@ -24,20 +26,16 @@
             }
         .header {
             height:700px;
-            background-image: url(../image/Header.png);
+            background-image: url(image/Header.png);
             padding-bottom: none;
             }
         .isi {
             padding-top: none;
             height: 1000px;
-            background-image: url(../image/isi.jpg);
-        }
-        .sper {
-            width: 2px;
-            background-image: url(../image/separator.png);
+            background-image: url(image/isi.jpg);
         }
         .fontstyle {
-            font-family: "Segoe UI Light";
+            font-family: "Segoe UI";
         }
         /* CSS Menu */
         *{
@@ -45,11 +43,13 @@
             margin: 0;
         }
         ul.nav{
-            padding-left: 700px;
+            position: fixed;
+            padding-left: 900px;
             text-decoration: none;
-            font-family: "Segoe UI Light";
+            font-family: "Segoe UI";
             }	
         ul.nav li{
+            border-bottom: 1px solid #ccc;
             list-style-type:none;
             display:inline-block;
             width:110px;
@@ -58,84 +58,55 @@
             text-decoration:none;
         }
         ul.nav li:hover{
-            background-image: url(../image/backmenu.png);
+            border-bottom: 1px solid #777;
         }
         ul.subnav{
             display:none;
             text-decoration:none;
-            height: 50px;
+            height: 30px;
+        }
+        ul.subnav li{
+            display:block;
+            width:170px;
+            text-align:left;
+            padding-left:20px;
+            text-decoration:none;
         }
         ul.nav li:hover ul.subnav{
             display:block;
             position:absolute;
         }
-        ul.subnav li{
-            display:block;
-            width:170px;
-            background-color:white;
-            text-align:left;
-            padding-left:10px;
-            text-decoration:none;
-        }
         a {
             text-decoration:none;
-            font-family: "Segoe UI Light";
-            }    
+            font-family: "Segoe UI";
+            }
     </style>
 <!--
 /*
-												/////////////////////////////////////////////////////////
-												//                                                     //
-												// 	Template Name: VectorEverywhere					   //
-												// 	Template Version: 1.0 							   //
-												//  Designer: Yuda Karnaen  						   //
-												//  Company: SMKN 1 SELONG							   //
-												//  All rights are Strictly Reserved  				   //
-												//                                                     //
-				    							/////////////////////////////////////////////////////////
+								/////////////////////////////////////////////////////////
+								//                                                     //
+								// 	Template Name: VectorEverywhere					   //
+								// 	Template Version: 1.0 							   //
+								//  Designer: Yuda Karnaen  						   //
+								//  Company: SMKN 1 SELONG							   //
+								//  All rights are Strictly Reserved  				   //
+								//                                                     //
+	   							/////////////////////////////////////////////////////////
 */-->
 
 <div class="rangka">
 	<div class="menu1">
-	<div class="menu">
 		<ul class="nav">
-			<li>Home</li>
-			<li>Designs
+			<a href="https://yudartcode.github.io"><li>Home</li></a>
+			<li>Find Me »
 				<ul class="subnav">
-					<li>Vector</li>
-					<li>WPAP</li>
-					<li>Typograpi</li>
-				</ul>
-			</li>
-			<li>Pemrograman
-				<ul class="subnav">
-					<li>VB.Net</li>
-					<li>JAVA</li>
-					<li>PHP</li>
-				</ul>
-			</li>
-			<li>Download
-				<ul class="subnav">
-					<li>Adobe Photoshop CS6</li>
-					<li>Corel Draw X7</li>
-					<li>Visual Studio 2010</li>
-					<li>SQL Server 2008 R2</li>
-				</ul>
-			</li>
-			<li>Contac
-				<ul class="subnav">
-					<a href="facebook.com/yuda.karnaen11"><li>Facebook</li></a>
-                    <a href="bit.ly/l-yrk"><li>Whatsapp</li></a>                    
+                    <a href="https://github.com/yudartcode"><li>Github</li></a>    
+                    <a href="https://facebook.com/yuda.karnaen11"><li>Facebook</li></a>
+                    <a href="https://instagram.com/yudakarnaen11"><li>Instagram</li></a>
+                    <a href="https://bit.ly/l-yrk"><li>WhatsApp</li></a>                    
 				</ul>
 			</li>
 		</ul>
-	</div>
-	</div>
-	<div class="header">
-		
-	</div>
-	<div class="isi">
-
 	</div>
 </div>
 </body>
