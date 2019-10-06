@@ -1,2 +1,4 @@
-# yudartcode.github.io
-This is my Github Website!
+Curiculum Vitae
+=========
+
+[Website](http://yudartcode.gitgub.io)
